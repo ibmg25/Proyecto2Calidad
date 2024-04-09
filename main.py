@@ -9,7 +9,7 @@ import random
 import re
 
 
-DB_path = os.getcwd() + "\\Database\\store.db"
+DB_path = os.getcwd() + "./Database/store.db"
 
 conn = sqlite3.connect(DB_path)
 c = conn.cursor()
